@@ -1,3 +1,6 @@
-#include <string>
+#ifndef SLIDE_HPP
+#define SLIDE_HPP
 
-std::string slide();
+void arrayShift(int arr[], int size, int shifts);
+
+#endif
